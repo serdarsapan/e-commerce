@@ -1,0 +1,11 @@
+.head{
+    padding-top: 24px;
+}
+.header-right{
+    display: inline-block;
+    float: right;
+    padding-right: 5%;
+}
+p{
+    display: inline-block;
+}
