@@ -1,5 +1,6 @@
 .head{
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-right{
     display: inline-block;
@@ -8,4 +9,18 @@
 }
 p{
     display: inline-block;
+}
+.selection{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.selection a{
+    color: #000;
+    text-decoration: none;
+}
+.search{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
 }

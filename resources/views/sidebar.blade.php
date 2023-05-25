@@ -1,3 +1,3 @@
 @section('sidebar')
-
+sidebar
 @endsection

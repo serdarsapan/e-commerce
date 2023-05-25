@@ -3,7 +3,7 @@
         <nav class="nav">
             <a class="nav-link active" aria-current="page" href="#">Customer Services</a>
             <a class="nav-link" href="#">Student Discount</a>
-            <a class="nav-link" href="#">Find a Store</a>
+            <a class="nav-link" href="{{ asset('index') }}">Back to Menu</a>
             <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
                     <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                 </svg></a>
@@ -29,6 +29,25 @@
                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
             </svg>
             <p>Sign In</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-3 selection">
+            <a href="{{ asset('man') }}">Man</a>
+        </div>
+        <div class="col-3 selection">
+            <a href="{{ asset('woman') }}">Woman</a>
+        </div>
+        <div class="col-4 search selection">
+                <div class="col-8 container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+        </div>
         </div>
     </div>
 @endsection
